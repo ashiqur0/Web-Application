@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="robots" content="index, follow" />
+        <meta 
+        name="description"
+        content="This website is all about my personal practice for HTML basics" />
+        <meta name="author" content="Ashiqur Rahman">
+        <title>Dr. Math's website</title>
+    </head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@100&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        html{
+            font-family: 'Poppins', sans-serif;
+            background-color: #f0f0f0;
+        }
+        h1{
+            font-weight: bold;
+            font-size: 2rem;
+        }
+        li{
+            list-style:none;
+        }
+        li,p,label{
+            font-family: Urbanist;
+            letter-spacing: 0.06;
+            line-height: 1.6;
+            font-size: 1.4rem;
+        }
+        audio{
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            width: 20rem;
+        }
+        progress{
+            height: 2rem;
+            width: 20rem;
+        }
+        ul, 
+        .services-section .services-gallery{
+            display: flex;
+            gap: 1rem;
+        }
+        ul,
+        .blog-link-section{
+            display:block;
+            gap: 1rem;
+        }
+        a{
+            text-decoration: none;
+        }
+    </style>
+    <body>
+        <header>
+            <div class="logo">
+                <a href="#" tabindex="_blank">
+                    <img src="../logo/Dr. Math logo.png" width="200px" alt="Dr. Maths's Logo">
+                </a>
+            </div>
+            <nav>
+                <ul style=" display:flex; gap:15px">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="hero-content">
+                <h1>I'm Ashiqur Rahman founder Dr. Math</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum quam, temporibus necessitatibus beatae repudiandae nemo quis dolorum sit, corporis itaque, error tenetur porro inventore ex cupiditate quidem perferendis saepe perspiciatis!</p>
+                <button>See my works</button>
+                <a href="https://www.facebook.com/ashiqur0/" target="_blank"><button>Find me on Facebook</button></a>
+            </div>
+            <div class="hero-image">
+                <figure>
+                    <img src="../images/Ashiqur.jpg" alt="heero-secion image of Dr. Math" width="500" height="auto">
+                </figure>
+            </div>
+        </main>
+        <section class="about-section">
+            <h2>Abour Dr. Math ❤</h2>
+            <div class="about-content">
+                <p>Lorem ipsum dolor sit amet.lorem5 Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique nobis earum at illo officia ullam quos amet aperiam, voluptatem illum debitis delectus praesentium ab fugiat ad dolore? Aperiam, eaque voluptatibus.</p>
+                <p><strong>My codding Knowledge</strong></p>
+                <div class="about-progress">
+                    <label for="html">HTML CODE: </label>
+                    <progress id="html" max="100" value="100">100% HTML</progress>
+                </div>
+
+                <div class="about-progress">
+                    <label for="css">CSS CODE: </label>
+                    <progress id="css" max="100" value="20">20% CSS</progress>
+                </div>
+
+                <div class="about-progress">
+                    <label for="js">Java Script CODE: </label>
+                    <progress id="js" max="100" value="10">10% JS</progress>
+                </div>
+
+                <div class="about-progress">
+                    <label for="mern">MERN CODE: </label>
+                    <progress id="mern" max="100" value="0"> 0% MERN</progress>
+                </div>
+
+            </div>
+        </section>
+        <section class="services-section">
+            <h3>Our Services</h3>
+            <div class="services-gallery">
+                <figure>
+                    <img src="../images/women1.jpg" width="auto" height="100px" alt="HTML Website service">
+                    <figcaption>HTML Website Development</figcaption>
+                </figure>
+                <figure>
+                    <img src="../images/women2.jpg" width="auto" height="100px" alt="CSS Website service">
+                    <figcaption>CSS Website Development</figcaption>
+                </figure>
+                <figure>
+                    <img src="../images/women3.jpg" width="auto" height="100px" alt="JS Website service">
+                    <figcaption>JS Website Development</figcaption>
+                </figure>
+                <figure>
+                    <img src="../images/women4.jpg" width="auto" height="100px" alt="MERN Website service">
+                    <figcaption>MERN Website Development</figcaption>
+                </figure>
+                <figure>
+                    <img src="../images/women5.jpg" width="auto" height="100px" alt="REACT Website service">
+                    <figcaption>REACT Website Development</figcaption>
+                </figure>
+            </div>
+        </section>
+        <section class="blog-section">
+            <h2>Our Blog</h2>
+            <article>
+                <header>
+                    <h3>Lorem ipsum dolor sit amet.</h3>
+                    <p><strong><em>Lorem ipsum dolor</em></strong> sit amet consectetur adipisicing elit. Nobis rerum est esse, deleniti, ipsa quo, soluta tenetur amet molestiae fugiat exercitationem aliquid? Dolorem vel perspiciatis ad distinctio? Dolorem quibusdam beatae corporis distinctio optio error debitis amet earum neque libero, placeat iusto rerum, tempore voluptatem perspiciatis quod eos. Animi, temporibus dicta.</p>
+                    <h4>Lorem ipsum dolor sit amet.</h4>
+                    <p><strong><em>Lorem ipsum dolor</em></strong> sit amet consectetur adipisicing elit. Nobis rerum est esse, deleniti, ipsa quo, soluta tenetur amet molestiae fugiat exercitationem aliquid? Dolorem vel perspiciatis ad distinctio? Dolorem quibusdam beatae corporis distinctio optio error debitis amet earum neque libero, placeat iusto rerum, tempore voluptatem perspiciatis quod eos. Animi, temporibus dicta.</p>
+                    <h5>Lorem ipsum dolor sit amet.</h5>
+                    <p><strong><em>Lorem ipsum dolor</em></strong> sit amet consectetur adipisicing elit. Nobis rerum est esse, deleniti, ipsa quo, soluta tenetur amet molestiae fugiat exercitationem aliquid? Dolorem vel perspiciatis ad distinctio? Dolorem quibusdam beatae corporis distinctio optio error debitis amet earum neque libero, placeat iusto rerum, tempore voluptatem perspiciatis quod eos. Animi, temporibus dicta.</p>
+                    <p>sit amet consectetur adipisicing elit. Nobis rerum est esse, deleniti, ipsa quo, soluta tenetur amet molestiae fugiat exercitationem aliquid? Dolorem vel perspiciatis ad distinctio? Dolorem quibusdam beatae corporis distinctio optio error debitis amet earum neque libero, placeat iusto rerum, tempore voluptatem perspiciatis quod eos. Animi, temporibus dicta.</p>
+                    <h6>Lorem ipsum dolor sit amet.</h6>
+                    <p><strong><em>Lorem ipsum dolor</em></strong> sit amet consectetur adipisicing elit. Nobis rerum est esse, deleniti, ipsa quo, soluta tenetur amet molestiae fugiat exercitationem aliquid? Dolorem vel perspiciatis ad distinctio? Dolorem quibusdam beatae corporis distinctio optio error debitis amet earum neque libero, placeat iusto rerum, tempore voluptatem perspiciatis quod eos. Animi, temporibus dicta.</p>
+                    <p>Thank you for reading till the end.</p>
+                </header>
+            </article>
+        </section>
+
+        <!-- Podcast section -->
+        <section class="podcast-section">
+            <p><em>Ppisicing elit. Nihil beatae dolore doloribus aliquid sit exercitationem.</em></p>
+            <audio controls muted loop>
+                <source src="../Audio/Haseeno_Ka_Deewana.mp3" type="audio/mpeg">
+                Your broeser does not support the audio element.
+            </audio>
+        </section>
+
+        <!-- other article link section -->
+        <section class="blog-link-section">
+            <p>Hope you likes my other blogs too</p>
+            <ul>
+                <li><a href="https://www.google.com" target="_blank">Lorem ipsum dolor sit.</a></li>
+                <li><a href="https://www.google.com" target="_blank">Lorem ipsum dolor sit.</a></li>
+                <li><a href="https://www.google.com" target="_blank">Lorem ipsum dolor sit.</a></li>
+                <li><a href="https://www.google.com" target="_blank">Lorem ipsum dolor sit.</a></li>
+                <li><a href="https://www.google.com" target="_blank">Lorem ipsum dolor sit.</a></li>
+            </ul>
+        </section>
+
+        <!-- coutact us section -->
+        <section class="contact-section">
+            <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3618.286398521623!2d89.34645097446369!3d24.922311542781465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fcff6dad46983f%3A0x32606b40b622acdb!2sPundra%20University%20of%20Science%20and%20Technology%20(PUB)!5e0!3m2!1sen!2sbd!4v1703958457008!5m2!1sen!2sbd" 
+            width="100%" 
+            height="250" 
+            style="border:0;" 
+            allowfullscreen="0" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+        </section>
+
+        <!-- form-section -->
+        <br>
+        <section>
+            <form>
+                <fieldset>
+                    <legend>User Login</legend>
+                    <br>
+                    <div>
+                        <label for="username">Username</label>
+                        <input type="text" id="username">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="password">Password</label>
+                        <input type="password" id="password">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="submit"></label>
+                        <input type="submit">
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+
+        <!-- footer section -->
+        <footer>
+            <p>
+                &copy; 2023 Dr. Math. All right reserved | This templete is made by Ashiqur.
+            </p>
+        </footer>
+    </body>
+</html>

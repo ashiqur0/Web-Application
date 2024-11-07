@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List</title>
+    <style>
+        html{
+            background-color: rgba(10, 10, 10, 0.7);
+            margin: 30px;
+        }
+        h1{
+            font-size: 40px;
+            color: greenyellow;
+        }
+        h2{
+            font-size: 32px;
+            color: orange;
+        }
+        ol{
+            font-size: 24px;
+            color: yellow;
+            /* list-style-type: decimal; */
+            /* list-style-type: lower-alpha; */
+            /* list-style-type: upper-alpha; */
+            /* list-style-type: lower-roman; */
+            /* list-style-type: upper-roman; */
+            /* list-style-type: lower-greek; */
+            /* list-style-type: lower-latin; */
+            /* list-style-type: upper-latin; */
+            /* list-style-type: none; */
+        }
+        ul{
+            font-size: 28px;
+            color: burlywood;
+            /* list-style-type: disc; */
+            /* list-style-type: circle; */
+            /* list-style-type: square; */
+            /* list-style-type: none; */
+            /* text-transform: capitalize; */
+            /* text-transform: lowercase; */
+        }
+    </style>
+</head>
+<body>
+    <h1>LIST IN HTML</h1>
+    <hr>
+    <h2>Orderd List</h2>
+    <ol type="1" start="4">
+        <li>Sam</li>
+        <li>Medha</li>
+        <li>Simanto</li>
+        <li>Fahim</li>
+        <li>Murad</li>
+        <li>Ashiqur</li>
+        <li>Akash</li>
+        <li>Rabbi</li>
+    </ol>
+    <hr>
+    <h2>Unorderd List</h2>
+    <ul type="square">
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Orange</li>
+    </ul>
+    
+    <hr>
+    <h2>Nested list (Bazar list)</h2>
+    <ol type="a">
+        <li>Meat-Fish</li>
+            <ol type="1">
+                <li>Beef 0.5 Kg</li>
+                <li>Chicken 1.5 Kg</li>
+                <li>Big Fish 2 Kg</li>
+            </ol>
+        <li>Vegetable</li>
+            <ol start="4">
+                <li>Potato 2 Kg</li>
+                <li>Onion 1 Kg</li>
+                <li>Green Chillies 0.5 Kg</li>
+                <li>Eggplant 0.5 Kg</li>
+            </ol>
+        <li>Grocery</li>
+            <ol start="8">
+                <li>Soybean oil 1 L</li>
+                <li>Lentils 0.5 Kg</li>
+                <li>Red chillies powder 20 Tk</li>
+                <li>Turmeric powder 20 Tk</li>
+            </ol>
+    </ol>
+
+    <hr>
+    <h2>Horizontal Navigation Menu using Unordered list </h2>
+    <ul style="list-style-type: none; display: flex; gap: 15px">
+        <li>Home</li>
+        <li>About</li>
+        <li>Service</li>
+        <li>Contact</li>
+    </ul>
+
+    <hr>
+    <h2>Make the Menu Clickable using anchor tag </h2>
+    <ul style="list-style-type: none; display: flex; gap: 15px">
+        <li>Home</li>
+        <li>About</li>
+        <li>Service</li>
+        <li><a href="./contact.html" target="_blank">Contact</a></li>
+    </ul>
+</body>
+</html>

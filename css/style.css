@@ -1,0 +1,22 @@
+@font-face {
+    font-family: face;
+    src: url("./font/Fortune.otf");
+}
+
+
+
+h1{
+    font-size: 48px;
+    color: rgb(255, 136, 0);
+}
+
+p{
+    font-size: 24px;
+}
+
+.parent{
+    font-size: 10px;
+}
+ul{
+    font-size: 1em;
+}

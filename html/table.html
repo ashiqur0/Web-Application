@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Table</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Jost:wght@400&family=Poppins:wght@00&display=swap');
+            html{
+                font-family: 'Jost', sans-serif;
+                background-color: #c5c6c679;
+                padding: 30px;
+            }
+            h1{
+                color: olivedrab;
+            }
+            h2{
+                color: orangered;
+                font-size: 32px;
+            }
+            table{
+                text-align: center;
+                border: 1px solid orange;
+                border-collapse: collapse;
+            }
+            tr,td,th{
+                border: 1px solid  rgb(255, 255, 255);
+                padding: 10px;
+                color: darkcyan;
+            }
+            th{
+                font-size: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>HTML Table Tag</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Username</th>
+                    <th colspan="2">Password</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ashiqur</td>
+                    <td rowspan="2"></td>
+                    <td>Rahman</td>
+                </tr>
+                <tr>
+                    <td>Lisa</td>
+                    <td>123</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Count:3 </td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <br>
+        <hr>
+        <h2>Class Schedule CSE 2nd Semester</h2>
+        <table>
+            <!-- <thead>
+                <tr>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead> -->
+            <tbody>
+                <tr>
+                    <td>Friday</td>
+                    <td>CSE 1203<br>M-305</td>
+                    <td >CSE 1203<br>M-304</td>
+                    <td rowspan="5">Lunch <br> Break</td>
+                    <td ></td>
+                    <td ></td>
+
+                </tr>
+                    <tr>
+                        <td>Saturday</td>
+                        <td>EEE 1201<br>M-402</td>
+                        <td>EEE 1202<br>M-505</td>
+                        <!-- <td rowspan="4">Lunch</td> -->
+                        <td>BNG 1201<br>LH-102</td>
+                        <td>MTH 1201<br>LH-102</td>
+                    </tr>
+                    <tr>
+                        <td>Sunday</td>
+                        <td>EEE 1201<br>M-402</td>
+                        <td>CSE 1204<br>M-304</td>
+                        <td>BNG 1201<br>LH-101</td>
+                        <td>CSE 1201<br>M-402</td>
+                    </tr>
+                    <tr>
+                        <td>Monday</td>
+                        <td>PHY 1201<br>M-405</td>
+                        <td>CSE 1202<br>M-303</td>
+                        <td>PHY 1202<br>M-403</td>
+                        <td>MTH 1201<br>LH-102</td>
+                    </tr>
+                    <tr>
+                        <td></th>Tuesday</td>
+                        <td>PHY 1201<br>M-405</td>
+                        <td>ENG 1202<br>M-302</td>
+                        <td>CSE 1202<br>M-304</td>
+                        <td>CSE 1201<br>M-304</td>
+                    </tr>
+                    <tr>
+                        <td>Wednesday</td>
+                        <td colspan="6">Holiday</td>
+                    </tr>
+                    <tr>
+                        <td>Thursday</td>
+                        <td colspan="6">Holiday</td>
+                    </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

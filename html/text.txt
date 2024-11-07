@@ -1,0 +1,2 @@
+Example for download file attribute.
+Q: How does the download attribute works in the anchor tag?

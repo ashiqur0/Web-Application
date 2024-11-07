@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Tag</title>
+    <style>
+        html{
+            background-color: #f0f0f0;
+        }
+        ::placeholder{
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+    <h1>HTML Form Tag</h1>
+    <form>
+        <div>
+            <label for="username">Username</label>
+            <input type="text" id="username" placeholder="Enter your name" />
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="********" />
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="example@email.com" />
+        </div>
+        <div>
+            <label for="number">Enter your age</label>
+            <input type="number" id="number" max="5" min="1" value="1" />
+        </div>
+
+        <div>
+            <label for="number">Enter your age</label>
+            <input type="number" id="number" max="5" min="1" value="1" />
+        </div>
+
+        
+        <div>
+            <label for="gender">Select your gender</label>
+            <input type="radio" name="gender" value="Male" />Male
+            <input type="radio" name="gender" value="Female" />Female
+            <input type="radio" name="gender" value="Other" />Other
+        </div>
+        <div>
+            <label for="hobies">Your favorite hobbies</label>
+            <input type="checkbox" name="interest" value="sports" />Music
+            <input type="checkbox" name="interest" value="music" />Sports
+            <input type="checkbox" name="interest" value="reading" />Reading
+        </div>
+        <div>
+            <label for="country">Favorite Country: </label>
+            <select name="country" id="country">
+                <option value="usa">USA</option>
+                <option value="uk">UK</option>
+                <option value="canada">Canada</option>
+                <option value="australia">Australia</option>
+                <option value="japan">Japan</option>
+            </select>
+        </div>
+        <div>
+            <label for="country">Enter a Country: </label>
+            <input type="text" id="country" name="country" list="countries">
+                <datalist id="countries">
+                    <option value="usa">USA</option>
+                    <option value="uk">UK</option>
+                    <option value="canada">Canada</option>
+                    <option value="australia">Australia</option>
+                    <option value="japan">Japan</option>
+                </datalist>
+            </input>
+        </div>
+        <div>
+            <label for="textare">Comments</label>
+            <textarea 
+                name="comments"  
+                rows="4"
+                cols="50"
+                placeholder="Enter your comments"
+            ></textarea>
+        </div>
+        <div>
+            <label for="file">Choose File</label>
+            <input type="file" name="fileUpload" />
+        </div>
+        <div>
+            <input type="submit" value="submit" />
+            <!-- or -->
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+</html>

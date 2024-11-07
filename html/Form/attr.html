@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple Attribute Form</title>
+    <style>
+        html{
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Multiple <span style="color: green;">Attribute Form</span></h1>
+    <h1>Welcome to<div style="color: orange;">Our Website</div></h1>
+    <form>
+        <div>
+            <label for="email">E-mail</label>
+            <input 
+            type="email" 
+            name="email" 
+            placeholder="example@mail.com" 
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+            required
+            autocomplete="on"
+            size="25"
+            value="ashiqurrahmans2018@gmail.com"
+            readonly
+            disabled
+            />
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="*************" required>
+        </div>
+        <div>
+            <label for="submit"></label>
+            <input type="submit" value="submit">
+        </div>
+    </form>
+</body>
+</html>

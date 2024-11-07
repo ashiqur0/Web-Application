@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Form</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@100&family=Poppins:wght@400&display=swap');
+        html{
+        background-color: #f0f0f0;
+        padding: 25px;
+        font-family: 'Poppins', sans-serif;
+        }
+        p{
+            font-size: 14px;
+            font-weight: bold;
+            color: #FD4949;
+        }
+    </style>
+</head>
+<body>
+    <h1>Advanced <span style="color: #FD4949;">Form</span></h1>
+    <form>
+        <div>
+            <label for="range">Price Range</label>
+            <input type="range" name="volume" min="0" max="100" value="80" />
+        </div>
+        <br>
+        <div>
+            <label for="birthdate">Birth Day</label>
+            <input type="date" name="birthdate" />
+        </div>
+        <br>
+        <div>
+            <label for="appointmenttime">Appointment Time</label>
+            <input type="time" name="appointmenttime" />
+        </div>
+        <br>
+        <div>
+            <label for="favoritecolor">Favorite color</label>
+            <input type="color" name="favoritecolor" />
+        </div>
+        <br>
+        <div>
+            <label for="website">Website</label>
+            <input type="url" name="website" placeholder="Enter website URL" />
+        </div>
+        <br>
+        <div>
+            <label for="SearchQuery">SearchQuery</label>
+            <input type="search" name="SearchQuery" placeholder="search" />
+        </div>
+        <br>
+        <div>
+            <label for="expiryDate">Month and Year</label>
+            <input type="month" name="expiryDate" />
+        </div>
+        <br>
+        <div>
+            <label for="week">vacationWeek</label>
+            <input type="week" name="vacationWeek" />
+        </div>
+    </form>
+    <p>এছাড়া আরো input type আছে যা প্রয়োজন সাপেক্ষে search করে শিখতে হবে।</p>
+    <hr>
+    <form>
+        <fieldset>
+            <legend>User Login</legend>
+            <div>
+                <label for="username">Username</label>
+                <input type="text" id="username">
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <input type="password" id="password">
+            </div>
+            <div>
+                <label for="submit"></label>
+                <input type="submit">
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
